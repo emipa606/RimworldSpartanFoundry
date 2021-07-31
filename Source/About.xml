@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Rimworld: Spartan Foundry</name>
+  <author>Oskar Potocki</author>
+  <supportedVersions>
+    <li>1.0</li>
+    <li>1.1</li>
+    <li>1.2</li>
+  </supportedVersions>
+  <packageId>HALO.RSF</packageId>
+  <loadAfter>
+    <li>vanillaexpanded.achievements</li>
+  </loadAfter>
+  <description>Rimworld: Spartan Foundry is a vanilla power armor expansion adding 9 new sets of advanced, end-game power armor. A set of Powered Assault Armor is craftable in very late game, requiring Ship Computer Core technology and an AI Persona Core. The other 8 sets of armour are NOT craftable and can only be obtained from quests and raids. The armor sets contain advanced glitterworld overshield technology, capable of absorbing several shots before requiring a long time to regenerate. Each armor set provides different bonuses and elements can be combined to suit every rimworld colonist.
+	</description>
+</ModMetaData>
