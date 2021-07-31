@@ -1,5 +1,8 @@
 # Changelog for RimworldSpartanFoundry
 
+1.0.2.0 - The shield code in VEF did not support 1.2 so removed that version of the mod
+
+
 1.0.1.0 - Something went wrng with the first publish, trying again
 
 
