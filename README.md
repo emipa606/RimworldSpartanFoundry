@@ -1,26 +1,18 @@
 # RimworldSpartanFoundry
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
 Update of Oskar Potockis mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1695609511
 with permission
 
 - Shield-code replaced with references to https://steamcommunity.com/workshop/filedetails/?id=2023507013]Vanilla Expanded Framework. Might be some slight differences.
+- If you want them craftable use https://steamcommunity.com/sharedfiles/filedetails/?id=2024346916]Spartan Foundry Warcraft (Continued)
 
-![Image](https://i.imgur.com/7Gzt3Rg.png)
+![Image](https://i.imgur.com/pufA0kM.png)
 
-
-[table]
-    [tr]
-        [td]https://invite.gg/Mlie]![Image](https://i.imgur.com/zdzzBrc.png)
-[/td]
-        [td]https://github.com/emipa606/RimworldSpartanFoundry]![Image](https://i.imgur.com/kTkpTOE.png)
-[/td]
-    [/tr]
-[/table]
 	
-![Image](https://i.imgur.com/NOW7jU1.png)
+![Image](https://i.imgur.com/Z4GOv8H.png)
 
 https://steamcommunity.com/sharedfiles/filedetails/?id=2288125657]![Image](https://i.imgur.com/kNldlMg.png)
 
@@ -36,7 +28,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2288125657]![Image](https
 1.2.3 (02/09/2019): All the armours now cover hands and feet.
 1.2.2 (10/05/2019): Minor bug fix. Thanks Trunken.
 1.2.1 (13/04/2019): Fixed some typo mistakes. Shock trooper armor no longer lowers your psychic sensitivity.
-1.2 (04/04/2019): Added Recon Power Armor, Recon Power Armor Helmet. Adjusted the layers of armors to allow wearing a belt - thus creating partial compatibility with Combat Extended. Adjusted work speed for creating armor and helmet - crafting shouldn&apos;t take years to finish now. 
+1.2 (04/04/2019): Added Recon Power Armor, Recon Power Armor Helmet. Adjusted the layers of armors to allow wearing a belt - thus creating partial compatibility with Combat Extended. Adjusted work speed for creating armor and helmet - crafting shouldn't take years to finish now. 
 1.1.1 (29/03/2019): Description tweaks.
 1.1.0 (28/03/2019): Added Samurai Power Armor, Samurai Power Armor Helmet, Shock Trooper Armor, Shock Trooper Armor Helmet. Fixed the issue with all the armors being craftable.
 1.0.0 (27/03/2019): Release
@@ -114,7 +106,7 @@ Q: Is this mod compatibile with Combat Extended?
 A: Should be.
 
 Q: Why is your mod special?
-A: I am a vanilla player. Anything that doesn&apos;t suit vanilla game makes me cringe and I stay away from it. I did however find the game lacking after some time, therefore I&apos;ve created these armors to be as accurate and as close to vanilla graphics style as possible. What is special? The best part is - nothing in this mod is special at all. Nothing will make you go &quot;Oh that&apos;s unusual&quot;, because the whole purpose of this mod is to blend into the existing game.
+A: I am a vanilla player. Anything that doesn't suit vanilla game makes me cringe and I stay away from it. I did however find the game lacking after some time, therefore I've created these armors to be as accurate and as close to vanilla graphics style as possible. What is special? The best part is - nothing in this mod is special at all. Nothing will make you go "Oh that's unusual", because the whole purpose of this mod is to blend into the existing game.
 
 Q: Is this mod save game compatible?
 A: Yes, you can add it and remove it whenever you like.
@@ -129,7 +121,7 @@ Q: Make armors craftable!
 A: No. These armors are meant to be rewards, just like Orbital bombardment beacons and other non-craftable things.
 
 Q: Make armors colorable!
-A: That requires extensive coding knowledge and I don&apos;t see the need to do that, if there is a mod that allows you to color it in any way you want. Check out Dubs Paint tool!
+A: That requires extensive coding knowledge and I don't see the need to do that, if there is a mod that allows you to color it in any way you want. Check out Dubs Paint tool!
 
 ![Image](https://i.imgur.com/W46r3qY.png)
 
@@ -141,7 +133,7 @@ Graphics are created by me, inspired by the armor from Halo franchise.
 
 Rimworld is owned by Tynan Sylvester.
 
-![Image](https://i.imgur.com/Rs6T6cr.png)
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 
@@ -151,5 +143,7 @@ Rimworld is owned by Tynan Sylvester.
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+
+
 
 
