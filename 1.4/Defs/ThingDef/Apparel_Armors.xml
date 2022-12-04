@@ -820,7 +820,7 @@
     <equippedStatOffsets>
       <MiningSpeed>0.2</MiningSpeed>
       <Flammability>-1</Flammability>
-      <ToxicResistance>-0.4</ToxicResistance>
+      <ToxicResistance>0.4</ToxicResistance>
       <MoveSpeed>-0.3</MoveSpeed>
     </equippedStatOffsets>
     <thingCategories>

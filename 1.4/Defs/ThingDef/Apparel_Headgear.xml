@@ -637,7 +637,7 @@
     </statBases>
     <equippedStatOffsets>
       <PsychicSensitivity>-1</PsychicSensitivity>
-      <ToxicResistance>-0.7</ToxicResistance>
+      <ToxicResistance>0.7</ToxicResistance>
       <ImmunityGainSpeed>0.10</ImmunityGainSpeed>
     </equippedStatOffsets>
     <costList>
