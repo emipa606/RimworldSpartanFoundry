@@ -1,5 +1,8 @@
 # Changelog for RimworldSpartanFoundry
 
+1.4.3 - Helmets should now be possible to purchase, also as possible questrewards
+
+
 1.4.2 - Fixed the toxic resistance values
 
 

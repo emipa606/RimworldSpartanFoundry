@@ -147,4 +147,5 @@ Rimworld is owned by Tynan Sylvester.
 
 
 
-https://steamcommunity.com/sharedfiles/filedetails/changelog/2562018758]Last updated 2022-12-04
+
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2562018758]Last updated 2023-01-03

@@ -1,11 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <!-- ==================================== Powered Assault Armor Helmet =====================================-->
-  <ThingDef ParentName="ArmorHelmetMakeableBase">
-    <defName>SF_PoweredAssaultArmorHelmet</defName>
-    <label>powered assault armor helmet</label>
-    <description>The helmet is very different from the standard Glitterworld marine helmets. It features a roughly "T" shaped visor with two large cheek guards. The top of the helmet is reinforced by a black alloy that forms a protective brace on top. It bears somewhat of a resemblance to the ancient Greek helmets and the helmets worn by ancient Spartans.</description>
-    <techLevel>Spacer</techLevel>
+  <ThingDef ParentName="ArmorHelmetMakeableBase" Name="SpartanFoundryHelmetsBase" Abstract="True">
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <researchPrerequisite>ShipComputerCore</researchPrerequisite>
@@ -17,6 +12,22 @@
       </recipeUsers>
       <workSkill>Crafting</workSkill>
     </recipeMaker>
+    <techLevel>Spacer</techLevel>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+    <tradeTags>
+      <li>Armor</li>
+    </tradeTags>
+    <comps>
+      <li Class="CompProperties_Biocodable" />
+    </comps>
+  </ThingDef>
+  <!-- ==================================== Powered Assault Armor Helmet =====================================-->
+  <ThingDef ParentName="SpartanFoundryHelmetsBase">
+    <defName>SF_PoweredAssaultArmorHelmet</defName>
+    <label>powered assault armor helmet</label>
+    <description>The helmet is very different from the standard Glitterworld marine helmets. It features a roughly "T" shaped visor with two large cheek guards. The top of the helmet is reinforced by a black alloy that forms a protective brace on top. It bears somewhat of a resemblance to the ancient Greek helmets and the helmets worn by ancient Spartans.</description>
     <graphicData>
       <texPath>Things/Helmets/PoweredAssaultArmor/CQBHelmet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -117,16 +128,12 @@
         </li>
       </options>
     </colorGenerator>
-    <thingSetMakerTags>
-      <li>RewardSpecial</li>
-    </thingSetMakerTags>
   </ThingDef>
   <!-- ==================================== Engineer Power Armor Helmet =====================================-->
-  <ThingDef ParentName="ArmorHelmetMakeableBase">
+  <ThingDef ParentName="SpartanFoundryHelmetsBase">
     <defName>SF_EngineerPowerArmorHelmet</defName>
     <label>engineer power armor helmet</label>
     <description>The engineer power armor helmet was designed to channel the pressure wave of a nearby detonation around the user's head, significantly reducing the likelihood of decapitation in the event of an explosion.</description>
-    <techLevel>Spacer</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <researchPrerequisite>ShipComputerCore</researchPrerequisite>
@@ -239,15 +246,14 @@
       </options>
     </colorGenerator>
     <thingSetMakerTags>
-      <li>RewardSpecial</li>
+      <li>RewardStandardQualitySuper</li>
     </thingSetMakerTags>
   </ThingDef>
   <!-- ==================================== Explorer Power Armor =====================================-->
-  <ThingDef ParentName="ArmorHelmetMakeableBase">
+  <ThingDef ParentName="SpartanFoundryHelmetsBase">
     <defName>SF_ExplorerPowerArmorHelmet</defName>
     <label>explorer power armor helmet</label>
     <description>The explorer helmet may have its characteristic visor for complete field of vision during alien worlds operations. Due to the AI persona assistant installed in the helmet's microchip, it is often seen on glitterworld scientists during exploration missions.</description>
-    <techLevel>Spacer</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <researchPrerequisite>ShipComputerCore</researchPrerequisite>
@@ -360,15 +366,14 @@
       </options>
     </colorGenerator>
     <thingSetMakerTags>
-      <li>RewardSpecial</li>
+      <li>RewardStandardQualitySuper</li>
     </thingSetMakerTags>
   </ThingDef>
   <!-- ==================================== Grenadier Power Armor =====================================-->
-  <ThingDef ParentName="ArmorHelmetMakeableBase">
+  <ThingDef ParentName="SpartanFoundryHelmetsBase">
     <defName>SF_GrenadierPowerArmorHelmet</defName>
     <label>grenadier power armor helmet</label>
     <description>The grenadier power armor helmet features a subpersona core responsible for tracking the surroundings and allowing operators to gain intelligence on hostile movements, hence allowing for better accuracy, and with additional layer of plate armor around jaw and visor, it makes the wearer almost immune to explosive damage.</description>
-    <techLevel>Spacer</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <researchPrerequisite>ShipComputerCore</researchPrerequisite>
@@ -479,15 +484,14 @@
       </options>
     </colorGenerator>
     <thingSetMakerTags>
-      <li>RewardSpecial</li>
+      <li>RewardStandardQualitySuper</li>
     </thingSetMakerTags>
   </ThingDef>
   <!-- ==================================== Commando Armor =====================================-->
-  <ThingDef ParentName="ArmorHelmetMakeableBase">
+  <ThingDef ParentName="SpartanFoundryHelmetsBase">
     <defName>SF_CommandoArmorHelmet</defName>
     <label>commando armor helmet</label>
     <description>The commando helmet target acquisition and tracking system has been adapted into various glitterworld spaceship weapon systems. The isolated camera feed improves the wearer's target awareness and firing effectiveness, especially while in motion.</description>
-    <techLevel>Spacer</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <researchPrerequisite>ShipComputerCore</researchPrerequisite>
@@ -599,15 +603,14 @@
       </options>
     </colorGenerator>
     <thingSetMakerTags>
-      <li>RewardSpecial</li>
+      <li>RewardStandardQualitySuper</li>
     </thingSetMakerTags>
   </ThingDef>
   <!-- ==================================== Hazard Operations Armor =====================================-->
-  <ThingDef ParentName="ArmorHelmetMakeableBase">
+  <ThingDef ParentName="SpartanFoundryHelmetsBase">
     <defName>SF_HazardOperationsArmorHelmet</defName>
     <label>hazard operations helmet</label>
     <description>The hazard operations helmet employs a unique technology to process and manufacture oxygen in highly toxic conditions and utilises a tin foil layer for protection against common psychic events in the mechanoid legacy worlds.</description>
-    <techLevel>Spacer</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <researchPrerequisite>ShipComputerCore</researchPrerequisite>
@@ -720,15 +723,14 @@
       </options>
     </colorGenerator>
     <thingSetMakerTags>
-      <li>RewardSpecial</li>
+      <li>RewardStandardQualitySuper</li>
     </thingSetMakerTags>
   </ThingDef>
   <!-- ==================================== Diplomat Power Armor =====================================-->
-  <ThingDef ParentName="ArmorHelmetMakeableBase">
+  <ThingDef ParentName="SpartanFoundryHelmetsBase">
     <defName>SF_DiplomatPowerArmorHelmet</defName>
     <label>diplomat power armor helmet</label>
     <description>The diplomat helmet utilises several translation modules as well as an AI persona core responsible for assessing the social situation and providing the operator with several solutions to current conversations.</description>
-    <techLevel>Spacer</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <researchPrerequisite>ShipComputerCore</researchPrerequisite>
@@ -841,15 +843,14 @@
       </options>
     </colorGenerator>
     <thingSetMakerTags>
-      <li>RewardSpecial</li>
+      <li>RewardStandardQualitySuper</li>
     </thingSetMakerTags>
   </ThingDef>
   <!-- ==================================== Defender Power Armor =====================================-->
-  <ThingDef ParentName="ArmorHelmetMakeableBase">
+  <ThingDef ParentName="SpartanFoundryHelmetsBase">
     <defName>SF_DefenderPowerArmorHelmet</defName>
     <label>defender power armor helmet</label>
     <description>The defender power armor helmet provides the operator with technical knowledge on human anatomy, allowing user to perform precise and safe surgeries in the midst of battle, thus making it a valuable asset on the rimworld.</description>
-    <techLevel>Spacer</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <researchPrerequisite>ShipComputerCore</researchPrerequisite>
@@ -962,15 +963,14 @@
       </options>
     </colorGenerator>
     <thingSetMakerTags>
-      <li>RewardSpecial</li>
+      <li>RewardStandardQualitySuper</li>
     </thingSetMakerTags>
   </ThingDef>
   <!-- ==================================== Scout Power Armor =====================================-->
-  <ThingDef ParentName="ArmorHelmetMakeableBase">
+  <ThingDef ParentName="SpartanFoundryHelmetsBase">
     <defName>SF_ScoutPowerArmorHelmet</defName>
     <label>scout power armor helmet</label>
     <description>The scout power armor helmet is a first choice of glitterworld scouting teams. It features a cap-like protrusion, along its rim and a beak-like protrusion under the chinas well as advanced targeting AI persona which allows for precise long-range engagements.</description>
-    <techLevel>Spacer</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <researchPrerequisite>ShipComputerCore</researchPrerequisite>
@@ -1083,15 +1083,14 @@
       </options>
     </colorGenerator>
     <thingSetMakerTags>
-      <li>RewardSpecial</li>
+      <li>RewardStandardQualitySuper</li>
     </thingSetMakerTags>
   </ThingDef>
   <!-- ==================================== Samurai Power Armor =====================================-->
-  <ThingDef ParentName="ArmorHelmetMakeableBase">
+  <ThingDef ParentName="SpartanFoundryHelmetsBase">
     <defName>SF_SamuraiPowerArmorHelmet</defName>
     <label>samurai power armor helmet</label>
     <description>The Samurai armor's helmet was designed with a defensive and ultraviolet protective visor. Like all power armor helmets, the visor is the weakest part. Thus, a small visor was designed to be more difficult to accurately penetrate. As such, the small visor provides for better protection of the wearer as well as better camouflage. A preinstalled AI persona contains information on all the martial fighting styles known across the galaxy.</description>
-    <techLevel>Spacer</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <researchPrerequisite>ShipComputerCore</researchPrerequisite>
@@ -1203,15 +1202,14 @@
       </options>
     </colorGenerator>
     <thingSetMakerTags>
-      <li>RewardSpecial</li>
+      <li>RewardStandardQualitySuper</li>
     </thingSetMakerTags>
   </ThingDef>
   <!-- ==================================== Shock Trooper Armor =====================================-->
-  <ThingDef ParentName="ArmorHelmetMakeableBase">
+  <ThingDef ParentName="SpartanFoundryHelmetsBase">
     <defName>SF_ShockTrooperArmorHelmet</defName>
     <label>shock trooper armor helmet</label>
     <description>The shock trooper helmet is made of titanium, coated with a heat resistance material to help disperse heat - the inside is lined with black padding to provide comfort when the user is wearing it. The newest version of the helmet integrates with the user's standard Neural Interface to provide more tactical data to the HUD as well as best optimal route to target.</description>
-    <techLevel>Spacer</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <researchPrerequisite>ShipComputerCore</researchPrerequisite>
@@ -1323,15 +1321,14 @@
       </options>
     </colorGenerator>
     <thingSetMakerTags>
-      <li>RewardSpecial</li>
+      <li>RewardStandardQualitySuper</li>
     </thingSetMakerTags>
   </ThingDef>
   <!-- ==================================== Recon Power Armor =====================================-->
-  <ThingDef ParentName="ArmorHelmetMakeableBase">
+  <ThingDef ParentName="SpartanFoundryHelmetsBase">
     <defName>SF_ReconPowerArmorHelmet</defName>
     <label>recon power armor helmet</label>
     <description>The recon helmet has large, rounded features, with a rise along the top of the head with two black triangles pointing out the front of the head on each side of the rise. It has a thin visor and an area of black alloy beneath it that covers the nose, surrounded by armor. A built-in AI Persona core helps the operator with foraging and contains all the important crafting recipes.</description>
-    <techLevel>Spacer</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <researchPrerequisite>ShipComputerCore</researchPrerequisite>
@@ -1443,7 +1440,7 @@
       </options>
     </colorGenerator>
     <thingSetMakerTags>
-      <li>RewardSpecial</li>
+      <li>RewardStandardQualitySuper</li>
     </thingSetMakerTags>
   </ThingDef>
 </Defs>
