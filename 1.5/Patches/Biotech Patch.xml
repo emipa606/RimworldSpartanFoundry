@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Biotech</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="SF_PoweredAssaultArmor" or defName="SF_EngineerPowerArmor" or defName="SF_ExplorerPowerArmor" or defName="SF_GrenadierPowerArmor" or defName="SF_CommandoArmor" or defName="SF_HazardOperationsArmor" or defName="SF_DiplomatPowerArmor" or defName="SF_DefenderPowerArmor" or defName="SF_ScoutPowerArmor" or defName="SF_SamuraiPowerArmor" or defName="SF_ShockTrooperArmor" or defName="SF_ReconPowerArmor"]/costList/AIPersonaCore</xpath>
+          <value>
+            <SubcoreHigh>1</SubcoreHigh>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

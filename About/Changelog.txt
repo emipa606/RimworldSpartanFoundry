@@ -1,5 +1,8 @@
 # Changelog for RimworldSpartanFoundry
 
+1.5.0 - Updated for 1.5
+
+
 1.4.3 - Helmets should now be possible to purchase, also as possible questrewards
 
 
