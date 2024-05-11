@@ -1,27 +1,21 @@
-# RimworldSpartanFoundry
+# [Rimworld: Spartan Foundry (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2562018758)
 
 ![Image](https://i.imgur.com/buuPQel.png)
-
 Update of Oskar Potockis mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1695609511
 with permission
 
-- Shield-code replaced with references to https://steamcommunity.com/workshop/filedetails/?id=2023507013]Vanilla Expanded Framework. Might be some slight differences.
-- If you want them craftable use https://steamcommunity.com/sharedfiles/filedetails/?id=2024346916]Spartan Foundry Warcraft (Continued)
+- Shield-code replaced with references to [https://steamcommunity.com/workshop/filedetails/?id=2023507013](Vanilla Expanded Framework). Might be some slight differences.
+- If you want them craftable use [https://steamcommunity.com/sharedfiles/filedetails/?id=2024346916](Spartan Foundry Warcraft (Continued))
 
 ![Image](https://i.imgur.com/pufA0kM.png)
-
 	
 ![Image](https://i.imgur.com/Z4GOv8H.png)
-
-https://steamcommunity.com/sharedfiles/filedetails/?id=2288125657]![Image](https://i.imgur.com/kNldlMg.png)
-
+[https://steamcommunity.com/sharedfiles/filedetails/?id=2288125657]![Image]((https://i.imgur.com/kNldlMg.png))
 
  ![Image](https://i.imgur.com/CQQXAVf.png)
 
-
 ![Image](https://i.imgur.com/aMP2s4I.png)
-
 
 1.4.0 (27/11/2020): Added support for achievements. Fixed certain armors and helmets being Medieval tech level lol.
 1.3.0 (19/02/2020): This mod is now 1.1 compatible.
@@ -35,7 +29,6 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2288125657]![Image](https
 
 ![Image](https://i.imgur.com/2QxvcQO.png)
 
-
 With Halo anthology coming to the PC quite soon, I thought it’s the perfect moment to revision the vanilla game power armor. I have found it quite versatile, but not quenching my “late game thirst”. Additionally, I wanted a sense of “pride and accomplishment” from doing quests, something unique that cannot be obtained any other way. This is how Spartan Foundry came into being.
 
 Rimworld: Spartan Foundry is a vanilla power armor expansion adding 9 new sets of advanced, end-game power armor. A set of Powered Assault Armor is craftable in very late game, requiring Ship Computer Core technology and an AI Persona Core. The other 8 sets of armour are NOT craftable and can only be obtained from quests and raids. The armor sets contain advanced glitterworld overshield technology, capable of absorbing several shots before requiring a long time to regenerate. Each armor set provides different bonuses and elements can be combined to suit every rimworld colonist.
@@ -44,54 +37,38 @@ Armors also come in several colors which are randomized upon the creation of the
 
 ![Image](https://i.imgur.com/DTVMs6d.png)
 
-
 Rimworld: Spartan Foundry comes with following armor sets.
 
 ![Image](https://i.imgur.com/5MEbLOh.png)
 
-
 ![Image](https://i.imgur.com/XMtuZhc.png)
-
 
 ![Image](https://i.imgur.com/0B46vVS.png)
 
-
 ![Image](https://i.imgur.com/RCpK0lc.png)
-
 
 ![Image](https://i.imgur.com/Yy7zruX.png)
 
-
 ![Image](https://i.imgur.com/i5OXYXl.png)
-
 
 ![Image](https://i.imgur.com/Qjw7PUk.png)
 
-
 ![Image](https://i.imgur.com/kxJcRoj.png)
-
 
 ![Image](https://i.imgur.com/6sWV2fb.png)
 
-
 ![Image](https://i.imgur.com/DQqvXIH.png)
-
 
 ![Image](https://i.imgur.com/n5GnuDN.png)
 
-
 ![Image](https://i.imgur.com/aMP2s4I.png)
-
 
 ![Image](https://i.imgur.com/swiQF55.png)
 
-
 ![Image](https://i.imgur.com/Wzy2o83.png)
-
 There shouldn’t be any incompatibilities or issues, but in case anything pops up, report issues in the comments.
 
 ![Image](https://i.imgur.com/sa36FDK.png)
-
 
 Q: Do the Rimworld: Spartan Foundry armors spawn randomly on pawns?
 A: Yes, they should be added to the available item pool when spawning raids, but they are very rare.
@@ -126,7 +103,6 @@ A: That requires extensive coding knowledge and I don't see the need to do that,
 ![Image](https://i.imgur.com/W46r3qY.png)
 
 
-
 Halo Spartan armors and UNSC logo are property of Bungie and 343 Industries. 
 
 Graphics are created by me, inspired by the armor from Halo franchise.
@@ -136,16 +112,14 @@ Rimworld is owned by Tynan Sylvester.
 ![Image](https://i.imgur.com/PwoNOj4.png)
 
 
-
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib or the standalone https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader and command Ctrl+F12
+-  Post your error-log using [https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] or the standalone [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404](Uploader) and command Ctrl+F12
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
--  Use https://github.com/RimSort/RimSort/releases/latest]RimSort to sort your mods
+-  Use [https://github.com/RimSort/RimSort/releases/latest](RimSort) to sort your mods
 
 
 
-https://steamcommunity.com/sharedfiles/filedetails/changelog/2562018758]![Image](https://img.shields.io/github/v/release/emipa606/RimworldSpartanFoundry?label=latest%20version&style=plastic&color=9f1111&labelColor=black)
-
+[https://steamcommunity.com/sharedfiles/filedetails/changelog/2562018758]![Image]((https://img.shields.io/github/v/release/emipa606/RimworldSpartanFoundry?label=latest%20version&style=plastic&color=9f1111&labelColor=black))

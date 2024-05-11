@@ -14,7 +14,7 @@
               <label>Humble Beginnings</label>
               <description>Obtain Powered assault armor set</description>
               <tab>RimWorldSpartanFoundry</tab>
-              <tracker Class="AchievementsExpanded.ItemTrackerMultipleSpartanFoundry">
+              <tracker Class="AchievementsExpanded.ItemTracker">
                 <thingList>
                   <li>
                     <key>SF_PoweredAssaultArmor</key>
@@ -25,6 +25,7 @@
                     <value>1</value>
                   </li>
                 </thingList>
+                <mustHaveAll>true</mustHaveAll>
               </tracker>
               <bgtexPath>Achievements/AchievementBackgroundHalo</bgtexPath>
               <texPath>Achievements/AchievementPoweredAssaultArmor</texPath>
@@ -35,7 +36,7 @@
               <label>Bob the Builder</label>
               <description>Obtain Engineer power armor set</description>
               <tab>RimWorldSpartanFoundry</tab>
-              <tracker Class="AchievementsExpanded.ItemTrackerMultipleSpartanFoundry">
+              <tracker Class="AchievementsExpanded.ItemTracker">
                 <thingList>
                   <li>
                     <key>SF_EngineerPowerArmor</key>
@@ -46,6 +47,7 @@
                     <value>1</value>
                   </li>
                 </thingList>
+                <mustHaveAll>true</mustHaveAll>
               </tracker>
               <bgtexPath>Achievements/AchievementBackgroundHalo</bgtexPath>
               <texPath>Achievements/AchievementEngineerPowerArmor</texPath>
@@ -56,7 +58,7 @@
               <label>Compatible with SoS2?</label>
               <description>Obtain Explorer power armor set</description>
               <tab>RimWorldSpartanFoundry</tab>
-              <tracker Class="AchievementsExpanded.ItemTrackerMultipleSpartanFoundry">
+              <tracker Class="AchievementsExpanded.ItemTracker">
                 <thingList>
                   <li>
                     <key>SF_ExplorerPowerArmor</key>
@@ -67,6 +69,7 @@
                     <value>1</value>
                   </li>
                 </thingList>
+                <mustHaveAll>true</mustHaveAll>
               </tracker>
               <bgtexPath>Achievements/AchievementBackgroundHalo</bgtexPath>
               <texPath>Achievements/AchievementExplorerPowerArmor</texPath>
@@ -77,7 +80,7 @@
               <label>Noble Five</label>
               <description>Obtain Grenadier power armor set</description>
               <tab>RimWorldSpartanFoundry</tab>
-              <tracker Class="AchievementsExpanded.ItemTrackerMultipleSpartanFoundry">
+              <tracker Class="AchievementsExpanded.ItemTracker">
                 <thingList>
                   <li>
                     <key>SF_GrenadierPowerArmor</key>
@@ -88,6 +91,7 @@
                     <value>1</value>
                   </li>
                 </thingList>
+                <mustHaveAll>true</mustHaveAll>
               </tracker>
               <bgtexPath>Achievements/AchievementBackgroundHalo</bgtexPath>
               <texPath>Achievements/AchievementGrenadierPowerArmor</texPath>
@@ -98,7 +102,7 @@
               <label>Ruined in Halo 4</label>
               <description>Obtain Commando power armor set</description>
               <tab>RimWorldSpartanFoundry</tab>
-              <tracker Class="AchievementsExpanded.ItemTrackerMultipleSpartanFoundry">
+              <tracker Class="AchievementsExpanded.ItemTracker">
                 <thingList>
                   <li>
                     <key>SF_CommandoArmor</key>
@@ -109,6 +113,7 @@
                     <value>1</value>
                   </li>
                 </thingList>
+                <mustHaveAll>true</mustHaveAll>
               </tracker>
               <bgtexPath>Achievements/AchievementBackgroundHalo</bgtexPath>
               <texPath>Achievements/AchievementCommandoArmor</texPath>
@@ -119,7 +124,7 @@
               <label>Could use that in 1986</label>
               <description>Obtain Hazard Operations armor set</description>
               <tab>RimWorldSpartanFoundry</tab>
-              <tracker Class="AchievementsExpanded.ItemTrackerMultipleSpartanFoundry">
+              <tracker Class="AchievementsExpanded.ItemTracker">
                 <thingList>
                   <li>
                     <key>SF_HazardOperationsArmor</key>
@@ -130,6 +135,7 @@
                     <value>1</value>
                   </li>
                 </thingList>
+                <mustHaveAll>true</mustHaveAll>
               </tracker>
               <bgtexPath>Achievements/AchievementBackgroundHalo</bgtexPath>
               <texPath>Achievements/AchievementHazardOperationsArmor</texPath>
@@ -140,7 +146,7 @@
               <label>Ain't We Posh</label>
               <description>Obtain Diplomat power armor set</description>
               <tab>RimWorldSpartanFoundry</tab>
-              <tracker Class="AchievementsExpanded.ItemTrackerMultipleSpartanFoundry">
+              <tracker Class="AchievementsExpanded.ItemTracker">
                 <thingList>
                   <li>
                     <key>SF_DiplomatPowerArmor</key>
@@ -151,6 +157,7 @@
                     <value>1</value>
                   </li>
                 </thingList>
+                <mustHaveAll>true</mustHaveAll>
               </tracker>
               <bgtexPath>Achievements/AchievementBackgroundHalo</bgtexPath>
               <texPath>Achievements/AchievementDiplomatPowerArmor</texPath>
@@ -161,7 +168,7 @@
               <label>Objective: Survive</label>
               <description>Obtain Defender power armor set</description>
               <tab>RimWorldSpartanFoundry</tab>
-              <tracker Class="AchievementsExpanded.ItemTrackerMultipleSpartanFoundry">
+              <tracker Class="AchievementsExpanded.ItemTracker">
                 <thingList>
                   <li>
                     <key>SF_DefenderPowerArmor</key>
@@ -172,6 +179,7 @@
                     <value>1</value>
                   </li>
                 </thingList>
+                <mustHaveAll>true</mustHaveAll>
               </tracker>
               <bgtexPath>Achievements/AchievementBackgroundHalo</bgtexPath>
               <texPath>Achievements/AchievementDefenderPowerArmor</texPath>
@@ -182,7 +190,7 @@
               <label>Headhunter</label>
               <description>Obtain Scout power armor set</description>
               <tab>RimWorldSpartanFoundry</tab>
-              <tracker Class="AchievementsExpanded.ItemTrackerMultipleSpartanFoundry">
+              <tracker Class="AchievementsExpanded.ItemTracker">
                 <thingList>
                   <li>
                     <key>SF_ScoutPowerArmor</key>
@@ -193,6 +201,7 @@
                     <value>1</value>
                   </li>
                 </thingList>
+                <mustHaveAll>true</mustHaveAll>
               </tracker>
               <bgtexPath>Achievements/AchievementBackgroundHalo</bgtexPath>
               <texPath>Achievements/AchievementScoutPowerArmor</texPath>
@@ -203,7 +212,7 @@
               <label>Lets NOT commit Sudoku</label>
               <description>Obtain Samurai power armor set</description>
               <tab>RimWorldSpartanFoundry</tab>
-              <tracker Class="AchievementsExpanded.ItemTrackerMultipleSpartanFoundry">
+              <tracker Class="AchievementsExpanded.ItemTracker">
                 <thingList>
                   <li>
                     <key>SF_SamuraiPowerArmor</key>
@@ -214,6 +223,7 @@
                     <value>1</value>
                   </li>
                 </thingList>
+                <mustHaveAll>true</mustHaveAll>
               </tracker>
               <bgtexPath>Achievements/AchievementBackgroundHalo</bgtexPath>
               <texPath>Achievements/AchievementSamuraiPowerArmor</texPath>
@@ -224,7 +234,7 @@
               <label>Can't use Ranged Weapons?</label>
               <description>Obtain Shock trooper armor set</description>
               <tab>RimWorldSpartanFoundry</tab>
-              <tracker Class="AchievementsExpanded.ItemTrackerMultipleSpartanFoundry">
+              <tracker Class="AchievementsExpanded.ItemTracker">
                 <thingList>
                   <li>
                     <key>SF_ShockTrooperArmor</key>
@@ -235,6 +245,7 @@
                     <value>1</value>
                   </li>
                 </thingList>
+                <mustHaveAll>true</mustHaveAll>
               </tracker>
               <bgtexPath>Achievements/AchievementBackgroundHalo</bgtexPath>
               <texPath>Achievements/AchievementShockTrooperArmor</texPath>
@@ -245,7 +256,7 @@
               <label>Am I Bungee staff?</label>
               <description>Obtain Recon power armor set</description>
               <tab>RimWorldSpartanFoundry</tab>
-              <tracker Class="AchievementsExpanded.ItemTrackerMultipleSpartanFoundry">
+              <tracker Class="AchievementsExpanded.ItemTracker">
                 <thingList>
                   <li>
                     <key>SF_ReconPowerArmor</key>
@@ -256,6 +267,7 @@
                     <value>1</value>
                   </li>
                 </thingList>
+                <mustHaveAll>true</mustHaveAll>
               </tracker>
               <bgtexPath>Achievements/AchievementBackgroundHalo</bgtexPath>
               <texPath>Achievements/AchievementReconPowerArmor</texPath>
