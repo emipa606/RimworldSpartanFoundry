@@ -1,27 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <ThingDef ParentName="ArmorHelmetMakeableBase" Name="SpartanFoundryHelmetsBase" Abstract="True">
+  <ThingDef ParentName="ApparelArmorHelmetPowerBase" Name="SpartanFoundryHelmetsBase" Abstract="True">
     <recipeMaker>
-      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
-      <researchPrerequisite>ShipComputerCore</researchPrerequisite>
       <skillRequirements>
         <Crafting>12</Crafting>
       </skillRequirements>
-      <recipeUsers Inherit="False">
-        <li>FabricationBench</li>
-      </recipeUsers>
       <workSkill>Crafting</workSkill>
     </recipeMaker>
-    <techLevel>Spacer</techLevel>
-    <thingSetMakerTags>
+    <thingSetMakerTags Inherit="False">
       <li>RewardStandardQualitySuper</li>
     </thingSetMakerTags>
-    <tradeTags>
-      <li>Armor</li>
-    </tradeTags>
-    <comps>
-      <li Class="CompProperties_Biocodable" />
-    </comps>
+    <colorGenerator Inherit="False" />
+    <apparel Inherit="False" />
+    <costList Inherit="False" />
+    <statBases Inherit="False" />
+    <generateCommonality Inherit="False" />
+    <uiIconScale Inherit="False" />
   </ThingDef>
   <!-- ==================================== Powered Assault Armor Helmet =====================================-->
   <ThingDef ParentName="SpartanFoundryHelmetsBase">

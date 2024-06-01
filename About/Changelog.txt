@@ -1,5 +1,8 @@
 # Changelog for RimworldSpartanFoundry
 
+1.5.2 - Fixed SOS2 compatibility
+
+
 1.5.1 - Fix for the updated Vanilla Achievements Expanded counter-type
 
 
