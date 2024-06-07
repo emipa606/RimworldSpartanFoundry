@@ -15,7 +15,7 @@
     <costList Inherit="False" />
     <statBases Inherit="False" />
     <generateCommonality Inherit="False" />
-    <uiIconScale Inherit="False" />
+    <!-- <uiIconScale Inherit="False" /> -->
   </ThingDef>
   <!-- ==================================== Powered Assault Armor Helmet =====================================-->
   <ThingDef ParentName="SpartanFoundryHelmetsBase">

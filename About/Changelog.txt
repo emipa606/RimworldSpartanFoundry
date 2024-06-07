@@ -1,5 +1,8 @@
 # Changelog for RimworldSpartanFoundry
 
+1.5.3 - Fixed the ui-icon for the helmets
+
+
 1.5.2 - Fixed SOS2 compatibility
 
 
