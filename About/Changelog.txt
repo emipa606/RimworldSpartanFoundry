@@ -1,5 +1,8 @@
 # Changelog for RimworldSpartanFoundry
 
+1.5.4 - Added missing parentTagDef to fix helmet issue with CE
+
+
 1.5.3 - Fixed the ui-icon for the helmets
 
 

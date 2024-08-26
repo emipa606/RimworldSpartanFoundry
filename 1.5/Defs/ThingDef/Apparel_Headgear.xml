@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <ThingDef ParentName="ApparelArmorHelmetPowerBase" Name="SpartanFoundryHelmetsBase" Abstract="True">
     <recipeMaker>
@@ -11,11 +11,13 @@
       <li>RewardStandardQualitySuper</li>
     </thingSetMakerTags>
     <colorGenerator Inherit="False" />
-    <apparel Inherit="False" />
     <costList Inherit="False" />
     <statBases Inherit="False" />
     <generateCommonality Inherit="False" />
     <!-- <uiIconScale Inherit="False" /> -->
+    <apparel Inherit="False">
+      <parentTagDef>ApparelHead</parentTagDef>
+    </apparel>
   </ThingDef>
   <!-- ==================================== Powered Assault Armor Helmet =====================================-->
   <ThingDef ParentName="SpartanFoundryHelmetsBase">
