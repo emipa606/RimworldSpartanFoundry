@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <ThingDef ParentName="ApparelArmorHelmetPowerBase" Name="SpartanFoundryHelmetsBase" Abstract="True">
+    <equippedStatOffsets>
+      <DecompressionResistance MayRequire="kentington.saveourship2">0.25</DecompressionResistance>
+      <HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
+    </equippedStatOffsets>
     <recipeMaker>
       <skillRequirements>
         <Crafting>12</Crafting>
@@ -17,7 +21,15 @@
     <!-- <uiIconScale Inherit="False" /> -->
     <apparel Inherit="False">
       <parentTagDef>ApparelHead</parentTagDef>
+      <tags>
+        <li MayRequire="kentington.saveourship2">EVA</li>
+      </tags>
     </apparel>
+    <comps>
+      <li MayRequire="kentington.saveourship2">
+        <compClass>SaveOurShip2.CompEVA</compClass>
+      </li>
+    </comps>
   </ThingDef>
   <!-- ==================================== Powered Assault Armor Helmet =====================================-->
   <ThingDef ParentName="SpartanFoundryHelmetsBase">

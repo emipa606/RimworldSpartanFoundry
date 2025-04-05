@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
+  <ThingDef ParentName="ApparelArmorPowerBase" Name="SF_PowerArmorBase" Abstract="True">
+    <equippedStatOffsets>
+      <DecompressionResistance MayRequire="kentington.saveourship2">0.75</DecompressionResistance>
+    </equippedStatOffsets>
+    <apparel>
+      <tags>
+        <li MayRequire="kentington.saveourship2">EVA</li>
+      </tags>
+    </apparel>
+    <comps>
+      <li MayRequire="kentington.saveourship2">
+        <compClass>SaveOurShip2.CompEVA</compClass>
+      </li>
+    </comps>
+  </ThingDef>
   <!-- ==================================== Powered Assault Armor =====================================-->
-  <ThingDef ParentName="ApparelArmorPowerBase">
+  <ThingDef ParentName="SF_PowerArmorBase">
     <defName>SF_PoweredAssaultArmor</defName>
     <label>powered assault armor</label>
     <description>Successor to the earlier Marine Armor variant first produced in 2548, the Powered Assault Armor Variant was developed and tested at Glitterworld facilities integrating feedback gathered from the Rimworld expeditions. The intent of the Powered Assault Armor variant was to improve survivability in close combat.</description>
@@ -155,7 +170,7 @@
     </thingSetMakerTags>
   </ThingDef>
   <!-- ==================================== Engineer Power Armor =====================================-->
-  <ThingDef ParentName="ApparelArmorPowerBase">
+  <ThingDef ParentName="SF_PowerArmorBase">
     <defName>SF_EngineerPowerArmor</defName>
     <label>engineer power armor</label>
     <description>A suit of heavy powered armor. The engineer variant's chest plate was designed specifically to reduce the number of grabbing edges on the armor, decreasing the likelihood of dismemberment and protecting personel during operations that involve demolishing buildings, clearing out rubble and setting off explosive ordnance.</description>
@@ -309,7 +324,7 @@
     </thingSetMakerTags>
   </ThingDef>
   <!-- ==================================== Explorer Power Armor =====================================-->
-  <ThingDef ParentName="ApparelArmorPowerBase">
+  <ThingDef ParentName="SF_PowerArmorBase">
     <defName>SF_ExplorerPowerArmor</defName>
     <label>explorer power armor</label>
     <description>A suit of heavy powered armor. The explorer power armor variant focuses on increasing atmospheric endurance and improving overall experience during research expeditions on the rimworlds. Because a lot of armor plating had to be sacrificed for research assisting modules, this exosuit is not as resilent to damage.</description>
@@ -462,7 +477,7 @@
     </thingSetMakerTags>
   </ThingDef>
   <!-- ==================================== Grenadier Power Armor =====================================-->
-  <ThingDef ParentName="ApparelArmorPowerBase">
+  <ThingDef ParentName="SF_PowerArmorBase">
     <defName>SF_GrenadierPowerArmor</defName>
     <label>grenadier power armor</label>
     <description>A suit of heavy powered armor. It was based on a design that originated from the first prototypes of the marine armor, one that was upgraded to withstand violent concussive force. Often used by glitterworld heavy ordnance operators, grenadier power armor provides users with extra protection from explosive devices.</description>
@@ -614,7 +629,7 @@
     </thingSetMakerTags>
   </ThingDef>
   <!-- ==================================== Commando Armor =====================================-->
-  <ThingDef ParentName="ApparelArmorPowerBase">
+  <ThingDef ParentName="SF_PowerArmorBase">
     <defName>SF_CommandoArmor</defName>
     <label>commando armor</label>
     <description>A suit of heavy powered armor. It uses synchronized optimization to tether the armor wearer to the shield belt's full functionality. The effect improves the wearer's survivability in close encounters. Glitterworld commandos have adopted this armor regardless of their weapon loadouts due to its isolated video optics and enhanced servomotors.</description>
@@ -766,7 +781,7 @@
     </thingSetMakerTags>
   </ThingDef>
   <!-- ==================================== Hazard Operations Armor =====================================-->
-  <ThingDef ParentName="ApparelArmorPowerBase">
+  <ThingDef ParentName="SF_PowerArmorBase">
     <defName>SF_HazardOperationsArmor</defName>
     <label>hazard operations armor</label>
     <description>A suit of heavy powered armor. The hazard operations armor utilizes a specialized material that helps protect the user from heightened exposure to radiation that normal power armor suits cannot. It is often used by glitterworld analytics during research missions on dangerous worlds due to protection from environmental hazards.</description>
@@ -920,7 +935,7 @@
     </thingSetMakerTags>
   </ThingDef>
   <!-- ==================================== Diplomat Power Armor =====================================-->
-  <ThingDef ParentName="ApparelArmorPowerBase">
+  <ThingDef ParentName="SF_PowerArmorBase">
     <defName>SF_DiplomatPowerArmor</defName>
     <label>diplomat power armor</label>
     <description>A suit of heavy powered armor. Created alongside the powered assault armor program, the diplomat power armor was a radical redesign to previous powered exoskeletons. The brainchild of rich glitterworld thinktanks, this power armor represents the vision of creating a civilised society out of rimworld's savage tribes.</description>
@@ -1073,7 +1088,7 @@
     </thingSetMakerTags>
   </ThingDef>
   <!-- ==================================== Defender Power Armor =====================================-->
-  <ThingDef ParentName="ApparelArmorPowerBase">
+  <ThingDef ParentName="SF_PowerArmorBase">
     <defName>SF_DefenderPowerArmor</defName>
     <label>defender power armor</label>
     <description>A suit of heavy powered armor. The defender power armor chest includes supplemental, lightweight armor plating to the default marine armor chest, as well as a subpersona core responsible for providing support to any given situation. Designed to operate in a wide variety of combat scenarios, the chest piece is designed to provide maximum freedom of movement while allowing for additional protection.</description>
@@ -1227,7 +1242,7 @@
     </thingSetMakerTags>
   </ThingDef>
   <!-- ==================================== Scout Power Armor =====================================-->
-  <ThingDef ParentName="ApparelArmorPowerBase">
+  <ThingDef ParentName="SF_PowerArmorBase">
     <defName>SF_ScoutPowerArmor</defName>
     <label>scout power armor</label>
     <description>A suit of heavy powered armor. The scout power armor variant and the recon project were run as parallel projects intended to develop a single stealth and reconnaissance power armor variant with no impact on endurance. The scout power armor utilises lightweight materials as well as advanced servomotors to enhance movement speed of the operator.</description>
@@ -1381,7 +1396,7 @@
     </thingSetMakerTags>
   </ThingDef>
   <!-- ==================================== Samurai Power Armor =====================================-->
-  <ThingDef ParentName="ApparelArmorPowerBase">
+  <ThingDef ParentName="SF_PowerArmorBase">
     <defName>SF_SamuraiPowerArmor</defName>
     <label>samurai power armor</label>
     <description>A suit of heavy powered armor. The Samurai project was intended to develop self-contained power armor, and the project eventually culminated in the development of the Samurai Powered Assault Armor. The purpose of the glitter-Japanese aesthetics was to instill fear in enemy soldiers while compensating for the armor's lack of defensive strength by angling the pieces to reduce ballistics penetration and providing a sleek, aerodynamic figure.</description>
@@ -1535,7 +1550,7 @@
     </thingSetMakerTags>
   </ThingDef>
   <!-- ==================================== Shock Trooper Armor =====================================-->
-  <ThingDef ParentName="ApparelArmorPowerBase">
+  <ThingDef ParentName="SF_PowerArmorBase">
     <defName>SF_ShockTrooperArmor</defName>
     <label>shock trooper armor</label>
     <description>A suit of heavy powered armor. The shock trooper body suit is made up of several different layers and materials, the inner layer of the black-gray undersuit is made up of Kevlar material to aid in protecting the wearer from small arms fire. The outer layer of the undersuit is coated with a heat resistance material to aid in reducing temperatures experienced during orbital drop. The powerful overshield stops the operator from using ranged weaponry, but provides high survivability in close quarters encounters.</description>
@@ -1676,7 +1691,7 @@
     </thingSetMakerTags>
   </ThingDef>
   <!-- ==================================== Recon Power Armor =====================================-->
-  <ThingDef ParentName="ApparelArmorPowerBase">
+  <ThingDef ParentName="SF_PowerArmorBase">
     <defName>SF_ReconPowerArmor</defName>
     <label>recon power armor</label>
     <description>A suit of heavy powered armor. The main purpose of the recon armor was to create armor with stealth capabilities and with little or no loss of endurance, specifically by reducing its infrared signature, reflective surfaces, and radiation emission. This resulted in faster movement speed and enhanced agility at the cost of energy shields capacitors.</description>
