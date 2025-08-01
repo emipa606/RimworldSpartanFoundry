@@ -38,8 +38,8 @@
       <EnergyShieldEnergyMax>0.6</EnergyShieldEnergyMax>
     </statBases>
     <comps>
-      <li Class="VFECore.CompProperties_ShieldBubble">
-        <compClass>VFECore.CompShieldBubble</compClass>
+      <li Class="VEF.Apparels.CompProperties_ShieldBubble">
+        <compClass>VEF.Apparels.CompShieldBubble</compClass>
         <blockRangedAttack>true</blockRangedAttack>
         <blockMeleeAttack>false</blockMeleeAttack>
         <showWhenDrafted>true</showWhenDrafted>
@@ -191,8 +191,8 @@
       <EnergyShieldEnergyMax>0.6</EnergyShieldEnergyMax>
     </statBases>
     <comps>
-      <li Class="VFECore.CompProperties_ShieldBubble">
-        <compClass>VFECore.CompShieldBubble</compClass>
+      <li Class="VEF.Apparels.CompProperties_ShieldBubble">
+        <compClass>VEF.Apparels.CompShieldBubble</compClass>
         <blockRangedAttack>true</blockRangedAttack>
         <blockMeleeAttack>false</blockMeleeAttack>
         <showWhenDrafted>true</showWhenDrafted>
@@ -345,8 +345,8 @@
       <EnergyShieldEnergyMax>0.6</EnergyShieldEnergyMax>
     </statBases>
     <comps>
-      <li Class="VFECore.CompProperties_ShieldBubble">
-        <compClass>VFECore.CompShieldBubble</compClass>
+      <li Class="VEF.Apparels.CompProperties_ShieldBubble">
+        <compClass>VEF.Apparels.CompShieldBubble</compClass>
         <blockRangedAttack>true</blockRangedAttack>
         <blockMeleeAttack>false</blockMeleeAttack>
         <showWhenDrafted>true</showWhenDrafted>
@@ -498,8 +498,8 @@
       <EnergyShieldEnergyMax>0.6</EnergyShieldEnergyMax>
     </statBases>
     <comps>
-      <li Class="VFECore.CompProperties_ShieldBubble">
-        <compClass>VFECore.CompShieldBubble</compClass>
+      <li Class="VEF.Apparels.CompProperties_ShieldBubble">
+        <compClass>VEF.Apparels.CompShieldBubble</compClass>
         <blockRangedAttack>true</blockRangedAttack>
         <blockMeleeAttack>false</blockMeleeAttack>
         <showWhenDrafted>true</showWhenDrafted>
@@ -650,8 +650,8 @@
       <EnergyShieldEnergyMax>0.6</EnergyShieldEnergyMax>
     </statBases>
     <comps>
-      <li Class="VFECore.CompProperties_ShieldBubble">
-        <compClass>VFECore.CompShieldBubble</compClass>
+      <li Class="VEF.Apparels.CompProperties_ShieldBubble">
+        <compClass>VEF.Apparels.CompShieldBubble</compClass>
         <blockRangedAttack>true</blockRangedAttack>
         <blockMeleeAttack>false</blockMeleeAttack>
         <showWhenDrafted>true</showWhenDrafted>
@@ -802,8 +802,8 @@
       <EnergyShieldEnergyMax>0.6</EnergyShieldEnergyMax>
     </statBases>
     <comps>
-      <li Class="VFECore.CompProperties_ShieldBubble">
-        <compClass>VFECore.CompShieldBubble</compClass>
+      <li Class="VEF.Apparels.CompProperties_ShieldBubble">
+        <compClass>VEF.Apparels.CompShieldBubble</compClass>
         <blockRangedAttack>true</blockRangedAttack>
         <blockMeleeAttack>false</blockMeleeAttack>
         <showWhenDrafted>true</showWhenDrafted>
@@ -956,8 +956,8 @@
       <EnergyShieldEnergyMax>0.6</EnergyShieldEnergyMax>
     </statBases>
     <comps>
-      <li Class="VFECore.CompProperties_ShieldBubble">
-        <compClass>VFECore.CompShieldBubble</compClass>
+      <li Class="VEF.Apparels.CompProperties_ShieldBubble">
+        <compClass>VEF.Apparels.CompShieldBubble</compClass>
         <blockRangedAttack>true</blockRangedAttack>
         <blockMeleeAttack>false</blockMeleeAttack>
         <showWhenDrafted>true</showWhenDrafted>
@@ -1109,8 +1109,8 @@
       <EnergyShieldEnergyMax>0.6</EnergyShieldEnergyMax>
     </statBases>
     <comps>
-      <li Class="VFECore.CompProperties_ShieldBubble">
-        <compClass>VFECore.CompShieldBubble</compClass>
+      <li Class="VEF.Apparels.CompProperties_ShieldBubble">
+        <compClass>VEF.Apparels.CompShieldBubble</compClass>
         <blockRangedAttack>true</blockRangedAttack>
         <blockMeleeAttack>false</blockMeleeAttack>
         <showWhenDrafted>true</showWhenDrafted>
@@ -1263,8 +1263,8 @@
       <EnergyShieldEnergyMax>0.6</EnergyShieldEnergyMax>
     </statBases>
     <comps>
-      <li Class="VFECore.CompProperties_ShieldBubble">
-        <compClass>VFECore.CompShieldBubble</compClass>
+      <li Class="VEF.Apparels.CompProperties_ShieldBubble">
+        <compClass>VEF.Apparels.CompShieldBubble</compClass>
         <blockRangedAttack>true</blockRangedAttack>
         <blockMeleeAttack>false</blockMeleeAttack>
         <showWhenDrafted>true</showWhenDrafted>
@@ -1417,8 +1417,8 @@
       <EnergyShieldEnergyMax>0.6</EnergyShieldEnergyMax>
     </statBases>
     <comps>
-      <li Class="VFECore.CompProperties_ShieldBubble">
-        <compClass>VFECore.CompShieldBubble</compClass>
+      <li Class="VEF.Apparels.CompProperties_ShieldBubble">
+        <compClass>VEF.Apparels.CompShieldBubble</compClass>
         <blockRangedAttack>true</blockRangedAttack>
         <blockMeleeAttack>false</blockMeleeAttack>
         <showWhenDrafted>true</showWhenDrafted>
@@ -1712,8 +1712,8 @@
       <EnergyShieldEnergyMax>0.2</EnergyShieldEnergyMax>
     </statBases>
     <comps>
-      <li Class="VFECore.CompProperties_ShieldBubble">
-        <compClass>VFECore.CompShieldBubble</compClass>
+      <li Class="VEF.Apparels.CompProperties_ShieldBubble">
+        <compClass>VEF.Apparels.CompShieldBubble</compClass>
         <blockRangedAttack>true</blockRangedAttack>
         <blockMeleeAttack>false</blockMeleeAttack>
         <showWhenDrafted>true</showWhenDrafted>

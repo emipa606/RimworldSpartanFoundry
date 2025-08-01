@@ -8,6 +8,7 @@ with permission
 
 - Shield-code replaced with references to [Vanilla Expanded Framework](https://steamcommunity.com/workshop/filedetails/?id=2023507013). Might be some slight differences.
 - If you want them craftable use [Spartan Foundry Warcraft (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2024346916)
+- Added support for [Save our ship 2](https://steamcommunity.com/sharedfiles/filedetails/?id=1909914131)
 
 ![Image](https://i.imgur.com/pufA0kM.png)
 	
@@ -118,7 +119,7 @@ Rimworld is owned by Tynan Sylvester.
 
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using [HugsLib](https://steamcommunity.com/workshop/filedetails/?id=818773962) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
+-  Post your error-log using the [Log Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.

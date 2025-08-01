@@ -3,6 +3,7 @@
   <ThingDef ParentName="ApparelArmorPowerBase" Name="SF_PowerArmorBase" Abstract="True">
     <equippedStatOffsets>
       <DecompressionResistance MayRequire="kentington.saveourship2">0.75</DecompressionResistance>
+      <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.32</VacuumResistance>
     </equippedStatOffsets>
     <apparel>
       <tags>

@@ -2,8 +2,14 @@
   "Continued": true,
   "CanAdd": "0",
   "CanRemove": "2",
-  "PreviewVersion": "1.5",
+  "PreviewVersion": "1.6",
   "SocialImageSet": true,
-  "LastXmlCleaning": "2025-04-05T22:31:30.3822354+02:00",
-  "SearchTags": " power armor"
+  "LastXmlCleaning": "2025-08-01T16:14:23.1210683+02:00",
+  "SearchTags": " power armor",
+  "Patches": true,
+  "Defs": true,
+  "Assemblies": false,
+  "LinesOfCode": 0,
+  "LinesOfXML": 127682,
+  "CodeBaseSize": 81
 }

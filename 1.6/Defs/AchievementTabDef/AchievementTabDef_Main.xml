@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AchievementsExpanded.AchievementTabDef MayRequire="vanillaexpanded.achievements">
+    <defName>RimWorldSpartanFoundry</defName>
+    <label>Spartan Foundry</label>
+  </AchievementsExpanded.AchievementTabDef>
+</Defs>

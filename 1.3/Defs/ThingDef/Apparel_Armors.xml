@@ -5,7 +5,7 @@
     <defName>SF_PoweredAssaultArmor</defName>
     <label>powered assault armor</label>
     <description>Successor to the earlier Marine Armor variant first produced in 2548, the Powered Assault Armor Variant was developed and tested at Glitterworld facilities integrating feedback gathered from the Rimworld expeditions. The intent of the Powered Assault Armor variant was to improve survivability in close combat.</description>
-    <thingClass>VFECore.Apparel_ShieldBubble</thingClass>
+    <thingClass>VEF.Apparels.Apparel_ShieldBubble</thingClass>
     <techLevel>Spacer</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
@@ -39,8 +39,8 @@
       <EnergyShieldEnergyMax>0.6</EnergyShieldEnergyMax>
     </statBases>
     <comps>
-      <li Class="VFECore.CompProperties_ShieldBubble">
-        <compClass>VFECore.CompShieldBubble</compClass>
+      <li Class="VEF.Apparels.CompProperties_ShieldBubble">
+        <compClass>VEF.Apparels.CompShieldBubble</compClass>
         <blockRangedAttack>true</blockRangedAttack>
         <blockMeleeAttack>false</blockMeleeAttack>
         <showWhenDrafted>true</showWhenDrafted>
@@ -160,7 +160,7 @@
     <defName>SF_EngineerPowerArmor</defName>
     <label>engineer power armor</label>
     <description>A suit of heavy powered armor. The engineer variant's chest plate was designed specifically to reduce the number of grabbing edges on the armor, decreasing the likelihood of dismemberment and protecting personel during operations that involve demolishing buildings, clearing out rubble and setting off explosive ordnance.</description>
-    <thingClass>VFECore.Apparel_ShieldBubble</thingClass>
+    <thingClass>VEF.Apparels.Apparel_ShieldBubble</thingClass>
     <techLevel>Spacer</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
@@ -193,8 +193,8 @@
       <EnergyShieldEnergyMax>0.6</EnergyShieldEnergyMax>
     </statBases>
     <comps>
-      <li Class="VFECore.CompProperties_ShieldBubble">
-        <compClass>VFECore.CompShieldBubble</compClass>
+      <li Class="VEF.Apparels.CompProperties_ShieldBubble">
+        <compClass>VEF.Apparels.CompShieldBubble</compClass>
         <blockRangedAttack>true</blockRangedAttack>
         <blockMeleeAttack>false</blockMeleeAttack>
         <showWhenDrafted>true</showWhenDrafted>
@@ -315,7 +315,7 @@
     <defName>SF_ExplorerPowerArmor</defName>
     <label>explorer power armor</label>
     <description>A suit of heavy powered armor. The explorer power armor variant focuses on increasing atmospheric endurance and improving overall experience during research expeditions on the rimworlds. Because a lot of armor plating had to be sacrificed for research assisting modules, this exosuit is not as resilent to damage.</description>
-    <thingClass>VFECore.Apparel_ShieldBubble</thingClass>
+    <thingClass>VEF.Apparels.Apparel_ShieldBubble</thingClass>
     <techLevel>Spacer</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
@@ -348,8 +348,8 @@
       <EnergyShieldEnergyMax>0.6</EnergyShieldEnergyMax>
     </statBases>
     <comps>
-      <li Class="VFECore.CompProperties_ShieldBubble">
-        <compClass>VFECore.CompShieldBubble</compClass>
+      <li Class="VEF.Apparels.CompProperties_ShieldBubble">
+        <compClass>VEF.Apparels.CompShieldBubble</compClass>
         <blockRangedAttack>true</blockRangedAttack>
         <blockMeleeAttack>false</blockMeleeAttack>
         <showWhenDrafted>true</showWhenDrafted>
@@ -469,7 +469,7 @@
     <defName>SF_GrenadierPowerArmor</defName>
     <label>grenadier power armor</label>
     <description>A suit of heavy powered armor. It was based on a design that originated from the first prototypes of the marine armor, one that was upgraded to withstand violent concussive force. Often used by glitterworld heavy ordnance operators, grenadier power armor provides users with extra protection from explosive devices.</description>
-    <thingClass>VFECore.Apparel_ShieldBubble</thingClass>
+    <thingClass>VEF.Apparels.Apparel_ShieldBubble</thingClass>
     <techLevel>Spacer</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
@@ -502,8 +502,8 @@
       <EnergyShieldEnergyMax>0.6</EnergyShieldEnergyMax>
     </statBases>
     <comps>
-      <li Class="VFECore.CompProperties_ShieldBubble">
-        <compClass>VFECore.CompShieldBubble</compClass>
+      <li Class="VEF.Apparels.CompProperties_ShieldBubble">
+        <compClass>VEF.Apparels.CompShieldBubble</compClass>
         <blockRangedAttack>true</blockRangedAttack>
         <blockMeleeAttack>false</blockMeleeAttack>
         <showWhenDrafted>true</showWhenDrafted>
@@ -622,7 +622,7 @@
     <defName>SF_CommandoArmor</defName>
     <label>commando armor</label>
     <description>A suit of heavy powered armor. It uses synchronized optimization to tether the armor wearer to the shield belt's full functionality. The effect improves the wearer's survivability in close encounters. Glitterworld commandos have adopted this armor regardless of their weapon loadouts due to its isolated video optics and enhanced servomotors.</description>
-    <thingClass>VFECore.Apparel_ShieldBubble</thingClass>
+    <thingClass>VEF.Apparels.Apparel_ShieldBubble</thingClass>
     <techLevel>Spacer</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
@@ -655,8 +655,8 @@
       <EnergyShieldEnergyMax>0.6</EnergyShieldEnergyMax>
     </statBases>
     <comps>
-      <li Class="VFECore.CompProperties_ShieldBubble">
-        <compClass>VFECore.CompShieldBubble</compClass>
+      <li Class="VEF.Apparels.CompProperties_ShieldBubble">
+        <compClass>VEF.Apparels.CompShieldBubble</compClass>
         <blockRangedAttack>true</blockRangedAttack>
         <blockMeleeAttack>false</blockMeleeAttack>
         <showWhenDrafted>true</showWhenDrafted>
@@ -775,7 +775,7 @@
     <defName>SF_HazardOperationsArmor</defName>
     <label>hazard operations armor</label>
     <description>A suit of heavy powered armor. The hazard operations armor utilizes a specialized material that helps protect the user from heightened exposure to radiation that normal power armor suits cannot. It is often used by glitterworld analytics during research missions on dangerous worlds due to protection from environmental hazards.</description>
-    <thingClass>VFECore.Apparel_ShieldBubble</thingClass>
+    <thingClass>VEF.Apparels.Apparel_ShieldBubble</thingClass>
     <techLevel>Spacer</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
@@ -808,8 +808,8 @@
       <EnergyShieldEnergyMax>0.6</EnergyShieldEnergyMax>
     </statBases>
     <comps>
-      <li Class="VFECore.CompProperties_ShieldBubble">
-        <compClass>VFECore.CompShieldBubble</compClass>
+      <li Class="VEF.Apparels.CompProperties_ShieldBubble">
+        <compClass>VEF.Apparels.CompShieldBubble</compClass>
         <blockRangedAttack>true</blockRangedAttack>
         <blockMeleeAttack>false</blockMeleeAttack>
         <showWhenDrafted>true</showWhenDrafted>
@@ -930,7 +930,7 @@
     <defName>SF_DiplomatPowerArmor</defName>
     <label>diplomat power armor</label>
     <description>A suit of heavy powered armor. Created alongside the powered assault armor program, the diplomat power armor was a radical redesign to previous powered exoskeletons. The brainchild of rich glitterworld thinktanks, this power armor represents the vision of creating a civilised society out of rimworld's savage tribes.</description>
-    <thingClass>VFECore.Apparel_ShieldBubble</thingClass>
+    <thingClass>VEF.Apparels.Apparel_ShieldBubble</thingClass>
     <techLevel>Spacer</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
@@ -963,8 +963,8 @@
       <EnergyShieldEnergyMax>0.6</EnergyShieldEnergyMax>
     </statBases>
     <comps>
-      <li Class="VFECore.CompProperties_ShieldBubble">
-        <compClass>VFECore.CompShieldBubble</compClass>
+      <li Class="VEF.Apparels.CompProperties_ShieldBubble">
+        <compClass>VEF.Apparels.CompShieldBubble</compClass>
         <blockRangedAttack>true</blockRangedAttack>
         <blockMeleeAttack>false</blockMeleeAttack>
         <showWhenDrafted>true</showWhenDrafted>
@@ -1084,7 +1084,7 @@
     <defName>SF_DefenderPowerArmor</defName>
     <label>defender power armor</label>
     <description>A suit of heavy powered armor. The defender power armor chest includes supplemental, lightweight armor plating to the default marine armor chest, as well as a subpersona core responsible for providing support to any given situation. Designed to operate in a wide variety of combat scenarios, the chest piece is designed to provide maximum freedom of movement while allowing for additional protection.</description>
-    <thingClass>VFECore.Apparel_ShieldBubble</thingClass>
+    <thingClass>VEF.Apparels.Apparel_ShieldBubble</thingClass>
     <techLevel>Spacer</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
@@ -1117,8 +1117,8 @@
       <EnergyShieldEnergyMax>0.6</EnergyShieldEnergyMax>
     </statBases>
     <comps>
-      <li Class="VFECore.CompProperties_ShieldBubble">
-        <compClass>VFECore.CompShieldBubble</compClass>
+      <li Class="VEF.Apparels.CompProperties_ShieldBubble">
+        <compClass>VEF.Apparels.CompShieldBubble</compClass>
         <blockRangedAttack>true</blockRangedAttack>
         <blockMeleeAttack>false</blockMeleeAttack>
         <showWhenDrafted>true</showWhenDrafted>
@@ -1240,7 +1240,7 @@
     <label>scout power armor</label>
     <description>A suit of heavy powered armor. The scout power armor variant and the recon project were run as parallel projects intended to develop a single stealth and reconnaissance power armor variant with no impact on endurance. The scout power armor utilises lightweight materials as well as advanced servomotors to enhance movement speed of the operator.</description>
     <techLevel>Spacer</techLevel>
-    <thingClass>VFECore.Apparel_ShieldBubble</thingClass>
+    <thingClass>VEF.Apparels.Apparel_ShieldBubble</thingClass>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <researchPrerequisite>ShipComputerCore</researchPrerequisite>
@@ -1272,8 +1272,8 @@
       <EnergyShieldEnergyMax>0.6</EnergyShieldEnergyMax>
     </statBases>
     <comps>
-      <li Class="VFECore.CompProperties_ShieldBubble">
-        <compClass>VFECore.CompShieldBubble</compClass>
+      <li Class="VEF.Apparels.CompProperties_ShieldBubble">
+        <compClass>VEF.Apparels.CompShieldBubble</compClass>
         <blockRangedAttack>true</blockRangedAttack>
         <blockMeleeAttack>false</blockMeleeAttack>
         <showWhenDrafted>true</showWhenDrafted>
@@ -1394,7 +1394,7 @@
     <defName>SF_SamuraiPowerArmor</defName>
     <label>samurai power armor</label>
     <description>A suit of heavy powered armor. The Samurai project was intended to develop self-contained power armor, and the project eventually culminated in the development of the Samurai Powered Assault Armor. The purpose of the glitter-Japanese aesthetics was to instill fear in enemy soldiers while compensating for the armor's lack of defensive strength by angling the pieces to reduce ballistics penetration and providing a sleek, aerodynamic figure.</description>
-    <thingClass>VFECore.Apparel_ShieldBubble</thingClass>
+    <thingClass>VEF.Apparels.Apparel_ShieldBubble</thingClass>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <researchPrerequisite>ShipComputerCore</researchPrerequisite>
@@ -1427,8 +1427,8 @@
       <EnergyShieldEnergyMax>0.6</EnergyShieldEnergyMax>
     </statBases>
     <comps>
-      <li Class="VFECore.CompProperties_ShieldBubble">
-        <compClass>VFECore.CompShieldBubble</compClass>
+      <li Class="VEF.Apparels.CompProperties_ShieldBubble">
+        <compClass>VEF.Apparels.CompShieldBubble</compClass>
         <blockRangedAttack>true</blockRangedAttack>
         <blockMeleeAttack>false</blockMeleeAttack>
         <showWhenDrafted>true</showWhenDrafted>
@@ -1688,7 +1688,7 @@
     <defName>SF_ReconPowerArmor</defName>
     <label>recon power armor</label>
     <description>A suit of heavy powered armor. The main purpose of the recon armor was to create armor with stealth capabilities and with little or no loss of endurance, specifically by reducing its infrared signature, reflective surfaces, and radiation emission. This resulted in faster movement speed and enhanced agility at the cost of energy shields capacitors.</description>
-    <thingClass>VFECore.Apparel_ShieldBubble</thingClass>
+    <thingClass>VEF.Apparels.Apparel_ShieldBubble</thingClass>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <researchPrerequisite>ShipComputerCore</researchPrerequisite>
@@ -1721,8 +1721,8 @@
       <EnergyShieldEnergyMax>0.2</EnergyShieldEnergyMax>
     </statBases>
     <comps>
-      <li Class="VFECore.CompProperties_ShieldBubble">
-        <compClass>VFECore.CompShieldBubble</compClass>
+      <li Class="VEF.Apparels.CompProperties_ShieldBubble">
+        <compClass>VEF.Apparels.CompShieldBubble</compClass>
         <blockRangedAttack>true</blockRangedAttack>
         <blockMeleeAttack>false</blockMeleeAttack>
         <showWhenDrafted>true</showWhenDrafted>
