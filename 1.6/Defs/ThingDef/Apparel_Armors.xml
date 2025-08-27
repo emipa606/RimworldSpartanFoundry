@@ -10,6 +10,9 @@
         <li MayRequire="kentington.saveourship2">EVA</li>
       </tags>
     </apparel>
+    <statBases>
+      <Insulation_Cold>90</Insulation_Cold>
+    </statBases>
     <comps>
       <li MayRequire="kentington.saveourship2">
         <compClass>SaveOurShip2.CompEVA</compClass>
@@ -48,7 +51,6 @@
       <ArmorRating_Sharp>1.18</ArmorRating_Sharp>
       <ArmorRating_Blunt>0.55</ArmorRating_Blunt>
       <ArmorRating_Heat>0.64</ArmorRating_Heat>
-      <Insulation_Cold>34</Insulation_Cold>
       <Insulation_Heat>10</Insulation_Heat>
       <EnergyShieldRechargeRate>0.01</EnergyShieldRechargeRate>
       <EnergyShieldEnergyMax>0.6</EnergyShieldEnergyMax>
@@ -200,7 +202,6 @@
       <ArmorRating_Sharp>1.08</ArmorRating_Sharp>
       <ArmorRating_Blunt>0.75</ArmorRating_Blunt>
       <ArmorRating_Heat>0.74</ArmorRating_Heat>
-      <Insulation_Cold>34</Insulation_Cold>
       <Insulation_Heat>16</Insulation_Heat>
       <EquipDelay>15</EquipDelay>
       <EnergyShieldRechargeRate>0.01</EnergyShieldRechargeRate>
@@ -354,7 +355,6 @@
       <ArmorRating_Sharp>0.90</ArmorRating_Sharp>
       <ArmorRating_Blunt>0.40</ArmorRating_Blunt>
       <ArmorRating_Heat>0.54</ArmorRating_Heat>
-      <Insulation_Cold>44</Insulation_Cold>
       <Insulation_Heat>36</Insulation_Heat>
       <EquipDelay>15</EquipDelay>
       <EnergyShieldRechargeRate>0.01</EnergyShieldRechargeRate>
@@ -507,7 +507,6 @@
       <ArmorRating_Sharp>1.48</ArmorRating_Sharp>
       <ArmorRating_Blunt>0.78</ArmorRating_Blunt>
       <ArmorRating_Heat>0.90</ArmorRating_Heat>
-      <Insulation_Cold>34</Insulation_Cold>
       <Insulation_Heat>10</Insulation_Heat>
       <EquipDelay>15</EquipDelay>
       <EnergyShieldRechargeRate>0.01</EnergyShieldRechargeRate>
@@ -659,7 +658,6 @@
       <ArmorRating_Sharp>1.08</ArmorRating_Sharp>
       <ArmorRating_Blunt>0.46</ArmorRating_Blunt>
       <ArmorRating_Heat>0.54</ArmorRating_Heat>
-      <Insulation_Cold>24</Insulation_Cold>
       <Insulation_Heat>10</Insulation_Heat>
       <EquipDelay>15</EquipDelay>
       <EnergyShieldRechargeRate>0.02</EnergyShieldRechargeRate>
@@ -811,7 +809,7 @@
       <ArmorRating_Sharp>1.12</ArmorRating_Sharp>
       <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
       <ArmorRating_Heat>0.90</ArmorRating_Heat>
-      <Insulation_Cold>86</Insulation_Cold>
+      <Insulation_Cold>120</Insulation_Cold>
       <Insulation_Heat>76</Insulation_Heat>
       <EquipDelay>15</EquipDelay>
       <EnergyShieldRechargeRate>0.01</EnergyShieldRechargeRate>
@@ -965,7 +963,6 @@
       <ArmorRating_Sharp>1.12</ArmorRating_Sharp>
       <ArmorRating_Blunt>0.56</ArmorRating_Blunt>
       <ArmorRating_Heat>0.58</ArmorRating_Heat>
-      <Insulation_Cold>38</Insulation_Cold>
       <Insulation_Heat>20</Insulation_Heat>
       <EquipDelay>15</EquipDelay>
       <EnergyShieldRechargeRate>0.01</EnergyShieldRechargeRate>
@@ -1118,7 +1115,6 @@
       <ArmorRating_Sharp>1.08</ArmorRating_Sharp>
       <ArmorRating_Blunt>0.55</ArmorRating_Blunt>
       <ArmorRating_Heat>0.54</ArmorRating_Heat>
-      <Insulation_Cold>34</Insulation_Cold>
       <Insulation_Heat>15</Insulation_Heat>
       <EquipDelay>15</EquipDelay>
       <EnergyShieldRechargeRate>0.01</EnergyShieldRechargeRate>
@@ -1272,7 +1268,6 @@
       <ArmorRating_Sharp>1.05</ArmorRating_Sharp>
       <ArmorRating_Blunt>0.55</ArmorRating_Blunt>
       <ArmorRating_Heat>0.60</ArmorRating_Heat>
-      <Insulation_Cold>25</Insulation_Cold>
       <Insulation_Heat>20</Insulation_Heat>
       <EquipDelay>15</EquipDelay>
       <EnergyShieldRechargeRate>0.01</EnergyShieldRechargeRate>
@@ -1426,7 +1421,6 @@
       <ArmorRating_Sharp>0.85</ArmorRating_Sharp>
       <ArmorRating_Blunt>0.35</ArmorRating_Blunt>
       <ArmorRating_Heat>0.66</ArmorRating_Heat>
-      <Insulation_Cold>35</Insulation_Cold>
       <Insulation_Heat>20</Insulation_Heat>
       <EquipDelay>15</EquipDelay>
       <EnergyShieldRechargeRate>0.01</EnergyShieldRechargeRate>
@@ -1580,7 +1574,6 @@
       <ArmorRating_Sharp>1.00</ArmorRating_Sharp>
       <ArmorRating_Blunt>0.85</ArmorRating_Blunt>
       <ArmorRating_Heat>0.77</ArmorRating_Heat>
-      <Insulation_Cold>35</Insulation_Cold>
       <Insulation_Heat>35</Insulation_Heat>
       <EquipDelay>15</EquipDelay>
       <EnergyShieldRechargeRate>0.03</EnergyShieldRechargeRate>
@@ -1721,7 +1714,6 @@
       <ArmorRating_Sharp>1.05</ArmorRating_Sharp>
       <ArmorRating_Blunt>0.65</ArmorRating_Blunt>
       <ArmorRating_Heat>0.60</ArmorRating_Heat>
-      <Insulation_Cold>45</Insulation_Cold>
       <Insulation_Heat>30</Insulation_Heat>
       <EquipDelay>15</EquipDelay>
       <EnergyShieldRechargeRate>0.01</EnergyShieldRechargeRate>
