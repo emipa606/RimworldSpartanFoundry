@@ -4,7 +4,6 @@
     <equippedStatOffsets>
       <DecompressionResistance MayRequire="kentington.saveourship2">0.25</DecompressionResistance>
       <HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
-      <DecompressionResistance MayRequire="kentington.saveourship2">0.75</DecompressionResistance>
     </equippedStatOffsets>
     <recipeMaker>
       <skillRequirements>
@@ -286,8 +285,8 @@
       <ArmorRating_Sharp>0.88</ArmorRating_Sharp>
       <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
       <ArmorRating_Heat>0.9</ArmorRating_Heat>
-      <Insulation_Cold>0.44</Insulation_Cold>
-      <Insulation_Heat>0.36</Insulation_Heat>
+      <Insulation_Cold>44</Insulation_Cold>
+      <Insulation_Heat>36</Insulation_Heat>
       <EquipDelay>6</EquipDelay>
       <WorkToMake>2200</WorkToMake>
     </statBases>
@@ -406,8 +405,8 @@
       <ArmorRating_Sharp>1.10</ArmorRating_Sharp>
       <ArmorRating_Blunt>0.38</ArmorRating_Blunt>
       <ArmorRating_Heat>1</ArmorRating_Heat>
-      <Insulation_Cold>0.34</Insulation_Cold>
-      <Insulation_Heat>0.1</Insulation_Heat>
+      <Insulation_Cold>34</Insulation_Cold>
+      <Insulation_Heat>10</Insulation_Heat>
       <EquipDelay>6</EquipDelay>
       <WorkToMake>2200</WorkToMake>
     </statBases>
@@ -524,8 +523,8 @@
       <ArmorRating_Sharp>1.00</ArmorRating_Sharp>
       <ArmorRating_Blunt>0.36</ArmorRating_Blunt>
       <ArmorRating_Heat>0.8</ArmorRating_Heat>
-      <Insulation_Cold>0.34</Insulation_Cold>
-      <Insulation_Heat>0.1</Insulation_Heat>
+      <Insulation_Cold>34</Insulation_Cold>
+      <Insulation_Heat>10</Insulation_Heat>
       <EquipDelay>6</EquipDelay>
       <WorkToMake>2200</WorkToMake>
     </statBases>
