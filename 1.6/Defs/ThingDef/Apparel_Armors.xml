@@ -682,6 +682,7 @@
     <equippedStatOffsets>
       <MoveSpeed>0.6</MoveSpeed>
       <CarryingCapacity>60</CarryingCapacity>
+      <VEF_MassCarryCapacity MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">60</VEF_MassCarryCapacity>
     </equippedStatOffsets>
     <thingCategories>
       <li>Apparel</li>
@@ -1444,6 +1445,7 @@
     </comps>
     <equippedStatOffsets>
       <CarryingCapacity>80</CarryingCapacity>
+      <VEF_MassCarryCapacity MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">80</VEF_MassCarryCapacity>
       <MeleeDodgeChance>0.2</MeleeDodgeChance>
       <MoveSpeed>0.3</MoveSpeed>
     </equippedStatOffsets>
@@ -1739,6 +1741,7 @@
       <MoveSpeed>0.8</MoveSpeed>
       <WorkSpeedGlobal>0.1</WorkSpeedGlobal>
       <CarryingCapacity>30</CarryingCapacity>
+      <VEF_MassCarryCapacity MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">30</VEF_MassCarryCapacity>
       <HuntingStealth>1</HuntingStealth>
     </equippedStatOffsets>
     <thingCategories>

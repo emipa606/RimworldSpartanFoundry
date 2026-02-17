@@ -1,5 +1,9 @@
 # Changelog for RimworldSpartanFoundry
 
+1.6.2 - Fixed SOS-stats, thanks tideShaper-industries!
+Added VE Mass carry capacity values to the armors
+
+
 1.6.1 - Increased the cold resistance for space walks
 
 
