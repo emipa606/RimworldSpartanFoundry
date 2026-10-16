@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Achievements Expanded</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <AchievementsExpanded.AchievementDef>
+              <defName>RSF_AchievementHumbleBeginnings</defName>
+              <label>Humble Beginnings</label>
+              <description>Obtain Powered assault armor set</description>
+              <tab>RimWorldSpartanFoundry</tab>
+              <tracker Class="AchievementsExpanded.ItemTracker">
+                <thingList>
+                  <li>
+                    <key>SF_PoweredAssaultArmor</key>
+                    <value>1</value>
+                  </li>
+                  <li>
+                    <key>SF_PoweredAssaultArmorHelmet</key>
+                    <value>1</value>
+                  </li>
+                </thingList>
+                <mustHaveAll>true</mustHaveAll>
+              </tracker>
+              <bgtexPath>Achievements/AchievementBackgroundHalo</bgtexPath>
+              <texPath>Achievements/AchievementPoweredAssaultArmor</texPath>
+              <points>15</points>
+            </AchievementsExpanded.AchievementDef>
+            <AchievementsExpanded.AchievementDef>
+              <defName>RSF_AchievementBobTheBuilder</defName>
+              <label>Bob the Builder</label>
+              <description>Obtain Engineer power armor set</description>
+              <tab>RimWorldSpartanFoundry</tab>
+              <tracker Class="AchievementsExpanded.ItemTracker">
+                <thingList>
+                  <li>
+                    <key>SF_EngineerPowerArmor</key>
+                    <value>1</value>
+                  </li>
+                  <li>
+                    <key>SF_EngineerPowerArmorHelmet</key>
+                    <value>1</value>
+                  </li>
+                </thingList>
+                <mustHaveAll>true</mustHaveAll>
+              </tracker>
+              <bgtexPath>Achievements/AchievementBackgroundHalo</bgtexPath>
+              <texPath>Achievements/AchievementEngineerPowerArmor</texPath>
+              <points>25</points>
+            </AchievementsExpanded.AchievementDef>
+            <AchievementsExpanded.AchievementDef>
+              <defName>RSF_AchievementCompatwithSoS2</defName>
+              <label>Compatible with SoS2?</label>
+              <description>Obtain Explorer power armor set</description>
+              <tab>RimWorldSpartanFoundry</tab>
+              <tracker Class="AchievementsExpanded.ItemTracker">
+                <thingList>
+                  <li>
+                    <key>SF_ExplorerPowerArmor</key>
+                    <value>1</value>
+                  </li>
+                  <li>
+                    <key>SF_ExplorerPowerArmorHelmet</key>
+                    <value>1</value>
+                  </li>
+                </thingList>
+                <mustHaveAll>true</mustHaveAll>
+              </tracker>
+              <bgtexPath>Achievements/AchievementBackgroundHalo</bgtexPath>
+              <texPath>Achievements/AchievementExplorerPowerArmor</texPath>
+              <points>25</points>
+            </AchievementsExpanded.AchievementDef>
+            <AchievementsExpanded.AchievementDef>
+              <defName>RSF_AchievementNoble5</defName>
+              <label>Noble Five</label>
+              <description>Obtain Grenadier power armor set</description>
+              <tab>RimWorldSpartanFoundry</tab>
+              <tracker Class="AchievementsExpanded.ItemTracker">
+                <thingList>
+                  <li>
+                    <key>SF_GrenadierPowerArmor</key>
+                    <value>1</value>
+                  </li>
+                  <li>
+                    <key>SF_GrenadierPowerArmorHelmet</key>
+                    <value>1</value>
+                  </li>
+                </thingList>
+                <mustHaveAll>true</mustHaveAll>
+              </tracker>
+              <bgtexPath>Achievements/AchievementBackgroundHalo</bgtexPath>
+              <texPath>Achievements/AchievementGrenadierPowerArmor</texPath>
+              <points>25</points>
+            </AchievementsExpanded.AchievementDef>
+            <AchievementsExpanded.AchievementDef>
+              <defName>RSF_AchievementRuinedinHalo4</defName>
+              <label>Ruined in Halo 4</label>
+              <description>Obtain Commando power armor set</description>
+              <tab>RimWorldSpartanFoundry</tab>
+              <tracker Class="AchievementsExpanded.ItemTracker">
+                <thingList>
+                  <li>
+                    <key>SF_CommandoArmor</key>
+                    <value>1</value>
+                  </li>
+                  <li>
+                    <key>SF_CommandoArmorHelmet</key>
+                    <value>1</value>
+                  </li>
+                </thingList>
+                <mustHaveAll>true</mustHaveAll>
+              </tracker>
+              <bgtexPath>Achievements/AchievementBackgroundHalo</bgtexPath>
+              <texPath>Achievements/AchievementCommandoArmor</texPath>
+              <points>25</points>
+            </AchievementsExpanded.AchievementDef>
+            <AchievementsExpanded.AchievementDef>
+              <defName>RSF_CouldUseThatIn1986</defName>
+              <label>Could use that in 1986</label>
+              <description>Obtain Hazard Operations armor set</description>
+              <tab>RimWorldSpartanFoundry</tab>
+              <tracker Class="AchievementsExpanded.ItemTracker">
+                <thingList>
+                  <li>
+                    <key>SF_HazardOperationsArmor</key>
+                    <value>1</value>
+                  </li>
+                  <li>
+                    <key>SF_HazardOperationsArmorHelmet</key>
+                    <value>1</value>
+                  </li>
+                </thingList>
+                <mustHaveAll>true</mustHaveAll>
+              </tracker>
+              <bgtexPath>Achievements/AchievementBackgroundHalo</bgtexPath>
+              <texPath>Achievements/AchievementHazardOperationsArmor</texPath>
+              <points>25</points>
+            </AchievementsExpanded.AchievementDef>
+            <AchievementsExpanded.AchievementDef>
+              <defName>RSF_AchievementAintWePosh</defName>
+              <label>Ain't We Posh</label>
+              <description>Obtain Diplomat power armor set</description>
+              <tab>RimWorldSpartanFoundry</tab>
+              <tracker Class="AchievementsExpanded.ItemTracker">
+                <thingList>
+                  <li>
+                    <key>SF_DiplomatPowerArmor</key>
+                    <value>1</value>
+                  </li>
+                  <li>
+                    <key>SF_DiplomatPowerArmorHelmet</key>
+                    <value>1</value>
+                  </li>
+                </thingList>
+                <mustHaveAll>true</mustHaveAll>
+              </tracker>
+              <bgtexPath>Achievements/AchievementBackgroundHalo</bgtexPath>
+              <texPath>Achievements/AchievementDiplomatPowerArmor</texPath>
+              <points>25</points>
+            </AchievementsExpanded.AchievementDef>
+            <AchievementsExpanded.AchievementDef>
+              <defName>RSF_AchievementObjectiveSurvive</defName>
+              <label>Objective: Survive</label>
+              <description>Obtain Defender power armor set</description>
+              <tab>RimWorldSpartanFoundry</tab>
+              <tracker Class="AchievementsExpanded.ItemTracker">
+                <thingList>
+                  <li>
+                    <key>SF_DefenderPowerArmor</key>
+                    <value>1</value>
+                  </li>
+                  <li>
+                    <key>SF_DefenderPowerArmorHelmet</key>
+                    <value>1</value>
+                  </li>
+                </thingList>
+                <mustHaveAll>true</mustHaveAll>
+              </tracker>
+              <bgtexPath>Achievements/AchievementBackgroundHalo</bgtexPath>
+              <texPath>Achievements/AchievementDefenderPowerArmor</texPath>
+              <points>25</points>
+            </AchievementsExpanded.AchievementDef>
+            <AchievementsExpanded.AchievementDef>
+              <defName>RSF_AchievementHeadhunter</defName>
+              <label>Headhunter</label>
+              <description>Obtain Scout power armor set</description>
+              <tab>RimWorldSpartanFoundry</tab>
+              <tracker Class="AchievementsExpanded.ItemTracker">
+                <thingList>
+                  <li>
+                    <key>SF_ScoutPowerArmor</key>
+                    <value>1</value>
+                  </li>
+                  <li>
+                    <key>SF_ScoutPowerArmorHelmet</key>
+                    <value>1</value>
+                  </li>
+                </thingList>
+                <mustHaveAll>true</mustHaveAll>
+              </tracker>
+              <bgtexPath>Achievements/AchievementBackgroundHalo</bgtexPath>
+              <texPath>Achievements/AchievementScoutPowerArmor</texPath>
+              <points>25</points>
+            </AchievementsExpanded.AchievementDef>
+            <AchievementsExpanded.AchievementDef>
+              <defName>RSF_AchievementLetsNotCommitSudoku</defName>
+              <label>Lets NOT commit Sudoku</label>
+              <description>Obtain Samurai power armor set</description>
+              <tab>RimWorldSpartanFoundry</tab>
+              <tracker Class="AchievementsExpanded.ItemTracker">
+                <thingList>
+                  <li>
+                    <key>SF_SamuraiPowerArmor</key>
+                    <value>1</value>
+                  </li>
+                  <li>
+                    <key>SF_SamuraiPowerArmorHelmet</key>
+                    <value>1</value>
+                  </li>
+                </thingList>
+                <mustHaveAll>true</mustHaveAll>
+              </tracker>
+              <bgtexPath>Achievements/AchievementBackgroundHalo</bgtexPath>
+              <texPath>Achievements/AchievementSamuraiPowerArmor</texPath>
+              <points>25</points>
+            </AchievementsExpanded.AchievementDef>
+            <AchievementsExpanded.AchievementDef>
+              <defName>RSF_AchievementCantUseRanged</defName>
+              <label>Can't use Ranged Weapons?</label>
+              <description>Obtain Shock trooper armor set</description>
+              <tab>RimWorldSpartanFoundry</tab>
+              <tracker Class="AchievementsExpanded.ItemTracker">
+                <thingList>
+                  <li>
+                    <key>SF_ShockTrooperArmor</key>
+                    <value>1</value>
+                  </li>
+                  <li>
+                    <key>SF_ShockTrooperArmorHelmet</key>
+                    <value>1</value>
+                  </li>
+                </thingList>
+                <mustHaveAll>true</mustHaveAll>
+              </tracker>
+              <bgtexPath>Achievements/AchievementBackgroundHalo</bgtexPath>
+              <texPath>Achievements/AchievementShockTrooperArmor</texPath>
+              <points>25</points>
+            </AchievementsExpanded.AchievementDef>
+            <AchievementsExpanded.AchievementDef>
+              <defName>RSF_AchievementAmIBungeeStaff</defName>
+              <label>Am I Bungee staff?</label>
+              <description>Obtain Recon power armor set</description>
+              <tab>RimWorldSpartanFoundry</tab>
+              <tracker Class="AchievementsExpanded.ItemTracker">
+                <thingList>
+                  <li>
+                    <key>SF_ReconPowerArmor</key>
+                    <value>1</value>
+                  </li>
+                  <li>
+                    <key>SF_ReconPowerArmorHelmet</key>
+                    <value>1</value>
+                  </li>
+                </thingList>
+                <mustHaveAll>true</mustHaveAll>
+              </tracker>
+              <bgtexPath>Achievements/AchievementBackgroundHalo</bgtexPath>
+              <texPath>Achievements/AchievementReconPowerArmor</texPath>
+              <points>25</points>
+            </AchievementsExpanded.AchievementDef>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

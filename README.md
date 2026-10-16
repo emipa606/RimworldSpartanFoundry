@@ -127,4 +127,4 @@ Rimworld is owned by Tynan Sylvester.
 
  
 
-[![Image](https://img.shields.io/github/v/release/emipa606/RimworldSpartanFoundry?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2562018758) | tags: power armor
+[![Image](https://img.shields.io/github/v/release/emipa606/RimworldSpartanFoundry?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2562018758) | power armor

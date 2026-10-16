@@ -1,5 +1,8 @@
 # Changelog for RimworldSpartanFoundry
 
+1.7.0 - Mod updated for 1.7 and passed autotests
+
+
 1.6.2 - Fixed SOS-stats, thanks tideShaper-industries!
 Added VE Mass carry capacity values to the armors
 
